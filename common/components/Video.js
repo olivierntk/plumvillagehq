@@ -6,10 +6,12 @@ class Video extends Component {
   }
 
   render() {
-
+    let url = `https://www.youtube.com/watch?v=${this.props.resourceId.videoId}`
     return (
       <li>
-        <div>{this.props.title}</div>
+        <div>
+          {this.props.title} - <a href={url} target="blank">link</a>
+        </div>
         {/*
         <div>{this.props.publishedAt}</div>
         <div>{this.props.description}</div>

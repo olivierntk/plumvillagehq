@@ -10,7 +10,7 @@ class App extends Component {
 
     return (
       <div>
-        APP SHELL
+        <h1>Plum Village youtube videos list</h1>
         <VideoList videos={videos} />
       </div>
     )

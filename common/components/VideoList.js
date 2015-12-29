@@ -7,12 +7,8 @@ class VideoList extends Component {
   }
 
   render() {
-
     return (
       <div>
-        <h1>
-          VideoList
-        </h1>
         <ul>
           {this.props.videos.map(video =>
             <Video
