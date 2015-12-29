@@ -10,8 +10,8 @@ import { syncReduxAndRouter } from 'redux-simple-router'
 import configureStore from '../common/store/configureStore'
 import App from '../common/containers/App'
 import Home from '../common/containers/Home'
-import Foo from '../common/containers/Foo'
-import Bar from '../common/containers/Bar'
+import Podcasts from '../common/containers/Podcasts'
+import Videos from '../common/containers/Videos'
 
 const initialState = window.__INITIAL_STATE__
 const store = configureStore(initialState)
@@ -25,8 +25,8 @@ render(
   	<Router history={history}>
       <Route path="/" component={App}>
         <IndexRoute component={Home}/>
-        <Route path="foo" component={Foo}/>
-        <Route path="bar" component={Bar}/>
+        <Route path="podcasts" component={Podcasts}/>
+        <Route path="videos" component={Videos}/>
       </Route>
     </Router>
   </Provider>,

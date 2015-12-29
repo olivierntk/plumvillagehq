@@ -16,8 +16,14 @@ import { Provider } from 'react-redux'
 import configureStore from '../common/store/configureStore'
 import App from '../common/containers/App'
 
+import { getUploadPlaylistID, getVideosList } from './videos'
+
 const app = new Express()
 const port = 3000
+
+let cache = {
+  videos: []
+}
 
 // Use this middleware to set up hot module reloading via webpack.
 const compiler = webpack(webpackConfig)
@@ -29,7 +35,10 @@ app.use(handleRender)
 
 function handleRender(req, res) {
   // Compile an initial state
-  const initialState = { }
+  const initialState = { videos: cache.videos }
+
+  console.log('initialState');
+  console.log(initialState);
 
   // Create a new Redux store instance
   const store = configureStore(initialState)
@@ -43,6 +52,9 @@ function handleRender(req, res) {
 
   // Grab the initial state from our Redux store
   const finalState = store.getState()
+
+  console.log('finalState');
+  console.log(finalState);
 
   // Send the rendered page back to the client
   res.send(renderFullPage(html, finalState))
@@ -66,10 +78,30 @@ function renderFullPage(html, initialState) {
     `
 }
 
-app.listen(port, (error) => {
-  if (error) {
-    console.error(error)
+// Retrieve all the videos and start the application
+getUploadPlaylistID((err, uploadPlaylistID) => {
+  if (err) {
+    console.error(err)
   } else {
-    console.info(`==> 🌎  Listening on port ${port}. Open up http://localhost:${port}/ in your browser.`)
+    console.log(uploadPlaylistID);
+    getVideosList({uploadPlaylistID: uploadPlaylistID}, (err, videos) => {
+      if (err) {
+        console.log(err);
+      } else {
+        cache.videos = videos
+
+        app.listen(port, (error) => {
+          if (error) {
+            console.error(error)
+          } else {
+            console.info(`==> 🌎  Listening on port ${port}. Open up http://localhost:${port}/ in your browser.`)
+          }
+        })
+      }
+    })
   }
 })
+
+
+
+

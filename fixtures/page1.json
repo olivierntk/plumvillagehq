@@ -1,0 +1,1976 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/vAP_dIl23gPIOvHP35C8gRzG2nQ\"",
+  "nextPageToken": "CDIQAA",
+  "pageInfo": {
+    "totalResults": 344,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/IKUZ1JPVBw9bsnKQ7rz0wkVz0UQ\"",
+      "id": "UUlCc-jzSedweitl6zSUQY6deoGLNX5ojf",
+      "snippet": {
+        "publishedAt": "2015-12-24T16:05:19.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Christmas Eve Dharma Talk from Plum Village",
+        "description": "Offered live by Sr. Jina (Dieu Nghiem), senior Dharma Teacher and former abbess of the Lower Hamlet of Plum Village.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/Ha1X/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RCh_njM3LFs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RCh_njM3LFs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RCh_njM3LFs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RCh_njM3LFs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RCh_njM3LFs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "RCh_njM3LFs"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/UVad_-AHCXm7_G7j4nDiN4vwYvI\"",
+      "id": "UUlCc-jzSedwfmBdoe4iqE1fu8ZiWfENvN",
+      "snippet": {
+        "publishedAt": "2015-12-17T18:40:52.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Plum Village Presence at The Paris Climate Conference",
+        "description": "Plum Village Brothers and Sisters share their experience at the COP21 Paris Climate Conference and the community's engagement in the collective climate actions to reduce the impact on the planet .\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/H897/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/D8qcZ14jTMw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/D8qcZ14jTMw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/D8qcZ14jTMw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "D8qcZ14jTMw"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/7LMlbzWhP53T8eLS6XRIXPfyTV0\"",
+      "id": "UUlCc-jzSedwcsmcs_yLYKOrVkHIYDonMa",
+      "snippet": {
+        "publishedAt": "2015-12-20T23:34:43.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "BCM Sunday Dharma Talk Sister True Vow 2015 12 13 (EN)",
+        "description": "On transforming habit energies.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/Ha1Y/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3uyygc8WbO0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3uyygc8WbO0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3uyygc8WbO0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3uyygc8WbO0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3uyygc8WbO0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "3uyygc8WbO0"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/H3dwEEsl6iRQRkW_LPugZxTIsfY\"",
+      "id": "UUlCc-jzSedwfg1pk1zOvomzVWEA-Ul8Ac",
+      "snippet": {
+        "publishedAt": "2015-12-06T16:33:42.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "BCM Sunday Dharma Talk Thầy Pháp Tại 2015 12 06 (VN)",
+        "description": "This is the latest Dharma talk by Thầy Pháp Tại in Vietnamese.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/H4vD/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IuWvQLmfzN4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IuWvQLmfzN4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IuWvQLmfzN4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/IuWvQLmfzN4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/IuWvQLmfzN4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "IuWvQLmfzN4"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/uXBu9C8lZQWmFMHI1DUl-XiKFBg\"",
+      "id": "UUlCc-jzSedwel_phts_LQY3J8FmWuOq3T",
+      "snippet": {
+        "publishedAt": "2015-10-25T23:06:34.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Touching the Present Moment - Los Angeles - Br. Phap Dang, Sr. Tue Nghiem",
+        "description": "During the 2015 Miracle of Mindfulness tour, the monastic sangha is traveling in the United States offering retreats and teachings. On October 24, 2015 an Afternoon of Mindfulness was offered at the Wilshire Ebell Theatre in Los Angeles, CA. \n\nThe afternoon begins with songs and a guided mediation (13:35) followed by chanting Namo Avalokiteshvara (36:22). A teaching by Sister Tue Nghiem (1:03:30) and Brother Phap Dang (1:32:15) follows. \n\nChan Phap Dang is one of three monastics first ordained by Zen Master Thich Nhat Hanh in 1990. Born in Vietnam, he and his family fled after the war, eventually settling in the United States. The former abbot of Maple Forest Monastery in Vermont, Brother Phap Dang now lives at Plum Village Monastery in France. As a senior Dharma teacher, he now trains other monastics at Plum Village and leads the community’s daily practice. He is the author of several books in Vietnamese on the subject of meditation and transformation.\n\nSister Tue Nghiem (Sister Insight) has been a nun for 22 years since her ordination in 1993. After studying psychology at the University of California, Davis, she visited Plum Village Monastery where she learned not only about Buddhist psychology from Thich Nhat Hanh, but also mindfulness practices to look deeply within herself for more awareness and insight. Ordained as a Dharma teacher since 1999, she has been leading mindfulness retreats around the world helping people to practice waking up to their own beauty and capacity as well as to the beauty surrounding them.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HRci/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XzgcTemPCtQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XzgcTemPCtQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XzgcTemPCtQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XzgcTemPCtQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XzgcTemPCtQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "XzgcTemPCtQ"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/IfisAHk0eooCrQx1iiErq9l5o3I\"",
+      "id": "UUlCc-jzSedwdxGisWou7n8M1bitClAC_P",
+      "snippet": {
+        "publishedAt": "2015-10-18T15:59:12.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Afternoon of Mindfulness in San Francisco - Br. Phap Hai, Sr. True Vow - 2015.10.10",
+        "description": "During the 2015 Miracle of Mindfulness tour, the monastic sangha is traveling in the United States offering retreats and teachings. On October 10, 2015 an Afternoon of Mindfulness was offered at the Nourse Theatre in San Francisco, CA. \n\nThe afternoon begins with songs and a guided mediation by Sister Jina (17:30) followed by chanting Namo Avalokiteshvara (35:20). A teaching by Brother Phap Hai (1:04:35) and Sister The Nghiem (1:48:25) follows. \n\nBrother Phap Hai (Dharma Ocean), is a senior monastic disciple of Venerable Thich Nhat Hanh who was ordained as a monk in 1997 and was formally authorized to teach in January 2003. Br. Phap Hai lives at Deer Park Monastery in Escondido, CA.\n\nSister The Nghiem (True Vow), currently the abbess of White Crane Hamlet at Blue Cliff Monastery, is a second-generation Vietnamese-American who grew up in Pennsylvania. he is one of the pioneers of Blue Cliff Monastery, helping to guide its transformation from a family holiday resort into a mindfulness practice center.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HP3k/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zzZECqp1Tpk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zzZECqp1Tpk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zzZECqp1Tpk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zzZECqp1Tpk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "zzZECqp1Tpk"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/kZoxzUE4Wx__RPR1yaLoM6QUPl8\"",
+      "id": "UUlCc-jzSedwfgEwe9TeLP7IaRjbLS5ouh",
+      "snippet": {
+        "publishedAt": "2015-10-06T03:21:05.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Magnolia Grove Viet Retreat - Sr.  Doan Nghiem - Viet/Eng 2015.10.04",
+        "description": "A Vietnamese language talk with English translation at Magnolia Grove Monastery. Part of the 2015 Miracle of Mindfulness US tour.\n\nLeft Channel - Vietnamese\nRight  Channel - English\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HL0c/\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HLmY/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/W_9BCdgu5k8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/W_9BCdgu5k8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/W_9BCdgu5k8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "W_9BCdgu5k8"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/mdAxdioJrOvqGXf6YVwmdSn4dc0\"",
+      "id": "UUlCc-jzSedwdBOjB2gE6el58gIRNdlRR4",
+      "snippet": {
+        "publishedAt": "2015-10-05T02:56:03.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Magnolia Grove - Viet Retreat - Final DT - Sr. Doan Nghiem 2015.10.04",
+        "description": "A Vietnamese Language talk at Magnolia Grove Monastery. Part of the 2015 Miracle of Mindfulness US tour.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HL0c/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MBiAfzJH8GQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MBiAfzJH8GQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MBiAfzJH8GQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "MBiAfzJH8GQ"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/7EyND4Xp8bLeWlIBt8tXMY1JToU\"",
+      "id": "UUlCc-jzSedwfsWfwZ-3pdPfwuJ2u3gKtS",
+      "snippet": {
+        "publishedAt": "2015-10-04T20:55:16.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "2012 10 14 NH  EN The Practice Of Mindfulness Of Compassion",
+        "description": "Dharma talk by Thay\n\n2012.10.14.NH.EN Fall Retreat\nAudio: English\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HLYS/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bPkASvOO4wA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bPkASvOO4wA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bPkASvOO4wA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bPkASvOO4wA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "bPkASvOO4wA"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/KZMQiU3R0DYoZ3MzYoel2-sRQVg\"",
+      "id": "UUlCc-jzSedwdYD01monAuawLsU-mVgXob",
+      "snippet": {
+        "publishedAt": "2015-10-02T06:09:58.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Magnolia Grove Viet Retreat - First Talk - Sr. Quy Nghiem",
+        "description": "Vietnamese Language retreat at Magnolia Grove Monastery, part of the US Tour, The Miracle of Mindfulness.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HKl0/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zTciimaWlL4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zTciimaWlL4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zTciimaWlL4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "zTciimaWlL4"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/RkO9MqkxkcU0nbG9R7FMtNiODPc\"",
+      "id": "UUlCc-jzSedweNf9jNfZX6sNZo_6rLr9aw",
+      "snippet": {
+        "publishedAt": "2015-10-02T01:45:53.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Magnolia Grove Viet Retreat - Orientation - Sr Truc Nghiem and Br.  Phap The 2015.09.30",
+        "description": "Vietnamese Language. Orientation for the retreat at Magnolia Grove Monastery, part of the US Tour, The Miracle of Mindfulness.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HKj0/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dL6vCl4hHzE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dL6vCl4hHzE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dL6vCl4hHzE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dL6vCl4hHzE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dL6vCl4hHzE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "dL6vCl4hHzE"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/U3NY_Y9SKlGqHwqEVUeNFQIEE5Y\"",
+      "id": "UUlCc-jzSedwdXBiGJ_DD5b7_0YpTbUDO1",
+      "snippet": {
+        "publishedAt": "2015-09-29T16:52:09.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "2012 10 11 LH EN Through The Insight Of Interbeing",
+        "description": "Dharma talk by Thầy\n\n2012.10.11.LH.EN \nAudio: English\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HJqy/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kuDSxr5qBT8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kuDSxr5qBT8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kuDSxr5qBT8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/kuDSxr5qBT8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "kuDSxr5qBT8"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/onr-zNvhMiyaWlI49DPbzYgZhL0\"",
+      "id": "UUlCc-jzSedwcY5yeWwmmMiP3xPMyRvPeV",
+      "snippet": {
+        "publishedAt": "2015-09-28T21:58:19.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Question and Answer - Miracle of Mindfulness Tour - Magnolia Grove 2015.09.27",
+        "description": "Question and answer session part of \"The Time is Now\" retreat at Magnolia Grove Monastery.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HJdm/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pIbqxtsybkw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pIbqxtsybkw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pIbqxtsybkw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "pIbqxtsybkw"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/LXZTltU9hZc2Vzphry19T_OLMBQ\"",
+      "id": "UUlCc-jzSedwfrDwNebjuJXXH48URBSTns",
+      "snippet": {
+        "publishedAt": "2015-09-27T15:01:09.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Why is Suffering Holy?",
+        "description": "During the retreat at Magnolia Grove Monastery​ (September 23, 2015), Sister Tue Nghiem teaches us why suffering is holy, even though it’s so uncomfortable. Coming back to our suffering helps us cultivate our compassion, our joy, and our happiness.\n\nIn addition to the retreats at Deer Park Monastery next month, the monastics are also giving talks in San Francisco and Los Angeles. ‪http://miracleofmindfulness‬.org\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HJSX/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H6AMWFtMKz8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H6AMWFtMKz8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H6AMWFtMKz8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/H6AMWFtMKz8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/H6AMWFtMKz8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "H6AMWFtMKz8"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/eXCRQbVZ5-L2Txb4GNUSvoBTgsc\"",
+      "id": "UUlCc-jzSedwfSiUSqu9np1NBgkvxNRxB8",
+      "snippet": {
+        "publishedAt": "2015-09-25T21:06:47.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"Cultivating Joy and Happiness\" - Miracle of Mindfulness Tour - 2015.09.25",
+        "description": "This is the third talk offered at Magnolia Grove Monastery during \"The Time is Now\" retreat. Sr. Dieu Nghiem shares about practice of cultivating joy and happiness in our mind, through mindfulness of the mind.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HIvi/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/X10MUP3bYp0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/X10MUP3bYp0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/X10MUP3bYp0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "X10MUP3bYp0"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/t1cMctSk9jzvt4Adho5DQ6UvXbM\"",
+      "id": "UUlCc-jzSedwfgY6TFjiSCzfhjBXNXo9Rx",
+      "snippet": {
+        "publishedAt": "2015-09-24T20:02:37.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"The Roots of Suffering\" - Miracle of Mindfulness Tour - Br. Phap Dung - 2015.09.24",
+        "description": "This is the second Dharma talk from our retreat at Magnolia Grove Monastery. Br. Phap Dung shares on the second noble truth: the roots and causes of our suffering. \n\nhttp://amara.org/v/HI9K/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dcI2IU5MbMk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dcI2IU5MbMk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dcI2IU5MbMk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 15,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "dcI2IU5MbMk"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/wXux1xpfQr_xFhUvs4A9AY5PmPo\"",
+      "id": "UUlCc-jzSedwfKArdnu1HZRqlnr0fZCP9g",
+      "snippet": {
+        "publishedAt": "2015-09-23T19:37:17.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"The Holiness of Suffering\" - The Time is Now Retreat - Sr. Tue Nghiem 2015.09.23",
+        "description": "The First Talk from our retreat at Magnolia Grove Monastery, part of the Miracle of Mindfulness US tour.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HIFY/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VaCZuhvQ1eI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VaCZuhvQ1eI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VaCZuhvQ1eI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 16,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "VaCZuhvQ1eI"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/1l0PxzC9yTKZ6uYyhVP-LEUCYD0\"",
+      "id": "UUlCc-jzSedwdBV-qqGNdaLCUKqpa9aNoq",
+      "snippet": {
+        "publishedAt": "2015-09-28T01:48:01.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Where Spirit and Action Meet",
+        "description": "Continuing the Legacy of Zen Master Thich Nhat Hanh and Dr. Martin Luther King, Jr.\n\nArthel Neville, Fox News Anchor, leads a discussion with:\n~ Alycee J. Lane, author of Nonviolence Now!\n~ Sister Peace, Buddhist nun, Thich Nhat Hanh’s Plum Village\n~ Marisela Gomez, MD, PhD, community activist and author of Race, Class, Power and Organizing in East Baltimore\n~ Zenju Earthlyn Manuel, PhD, ordained Zen Buddhist priest and author of The Way of Tenderness: Awakening Through Race, Sexuality, and Gender\n\nabout the inter-being of spirituality and action in the struggle for racial justice. Given the tragic events in Baltimore, New York, Charleston, Ferguson and elsewhere in the US, the time is now to look deeply and act compassionately to address our country's deep-rooted habit of structural racism.\n\nZen Master Thich Nhat Hanh’s message of peace was instrumental in Dr. King's decision to speak out against the Vietnam War and to nominate Thich Nhat Hanh for the Nobel Peace Prize in 1967. When Dr. King was assassinated, Thich Nhat Hanh vowed to redouble his efforts to build the Beloved Community they had discussed together and to continue teaching the importance of \"being peace\" in the non-violent struggle for peace and justice.\n\nThis event took place at A breathing room, deepak homebase, on the mezz at abc home.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1wx8d-asUUM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1wx8d-asUUM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1wx8d-asUUM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/1wx8d-asUUM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/1wx8d-asUUM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 17,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "1wx8d-asUUM"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/ZUud1shfE3OgOIHIGxF3bBpxqIE\"",
+      "id": "UUlCc-jzSedwfShsr7EL-5jKWpfAl4Au0-",
+      "snippet": {
+        "publishedAt": "2015-09-23T04:30:12.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Orientation - Magnolia Grove - Miracle of Mindfulness Tour - 2015.09.22",
+        "description": "This is the orientation for the retreat \"The Time is Now\" at Magnolia Grove Monastery offered by Sister Brightness and Brother Stream.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HHsS/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ukUnL5SwRcs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ukUnL5SwRcs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ukUnL5SwRcs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ukUnL5SwRcs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ukUnL5SwRcs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 18,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ukUnL5SwRcs"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/Ns1UjPh2AbC25Ew8k6VrZBoqnD8\"",
+      "id": "UUlCc-jzSedwc-PimXzzuheFNwncs7Yrez",
+      "snippet": {
+        "publishedAt": "2015-09-22T04:10:23.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Mindfulness is Opening Up",
+        "description": "An excerpt from the Day of Mindfulness at Blue Cliff Monastery on September 6, 2015 during the Miracle of Mindfulness Tour. Phap Dang teaches us that mindfulness is opening up completely. We can remove misunderstanding and misperception. Misunderstanding comes from judging and reacting.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HHag/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JDtpRU8SxSU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JDtpRU8SxSU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JDtpRU8SxSU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JDtpRU8SxSU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JDtpRU8SxSU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 19,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "JDtpRU8SxSU"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/fYKeA6GqoWx3uP4XD5YtfhHLuI4\"",
+      "id": "UUlCc-jzSedweYpo-DYzfWRpe2oXYIxG-3",
+      "snippet": {
+        "publishedAt": "2015-09-21T17:58:49.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "2012 10 07 UH EN Touching Life With Each Mindful Breath",
+        "description": "Dharma talk by Thầy\nFall Retreat at Plum Village\n2012.10.07\nAudio: English\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HH4m/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m5ucWKDYQMc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m5ucWKDYQMc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m5ucWKDYQMc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 20,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "m5ucWKDYQMc"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/5hIpX9rw6QD8Rwuzm2Uq2UzPJ2k\"",
+      "id": "UUlCc-jzSedwegEjdnJTyfcJFXOw7cpMti",
+      "snippet": {
+        "publishedAt": "2015-09-20T19:16:44.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Conditions of Happiness",
+        "description": "An excerpt from the New York City Public Talk on September 12, 2015 during the Miracle of Mindfulness Tour. Phap Dung shares about our conditions of happiness.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HHPg/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/shhWxeNlSWc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/shhWxeNlSWc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/shhWxeNlSWc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/shhWxeNlSWc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/shhWxeNlSWc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 21,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "shhWxeNlSWc"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/bl8Yn_JItY1nksSB8HVepo8Tmxo\"",
+      "id": "UUlCc-jzSedwdUExLKgxX92mp9HF5sm18j",
+      "snippet": {
+        "publishedAt": "2015-09-20T19:17:04.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Celebrate Our Spiritual Roots",
+        "description": "An excerpt from the New York City Public Talk on September 12, 2015 during the Miracle of Mindfulness Tour. Sr. Jina shares about our spiritual roots.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HHPh/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fLzueBWe0kM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fLzueBWe0kM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fLzueBWe0kM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/fLzueBWe0kM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/fLzueBWe0kM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 22,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "fLzueBWe0kM"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/d6X99m-TGdw8qa1eMTIC5mtMTrk\"",
+      "id": "UUlCc-jzSedwc9vWc8M4li-BRXvqAZ4PLg",
+      "snippet": {
+        "publishedAt": "2015-09-19T18:57:55.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"Mindfulness: Coming home, Taking Care\" Day of  Mindfulness at BCM - 2015.09.06 - Brother Phap Dang",
+        "description": "Mindfulness allows us to come home to ourselves,  to recognize, understand, and heal the suffering in us.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HHDb/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rmzXqU84W-w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rmzXqU84W-w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rmzXqU84W-w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 23,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "rmzXqU84W-w"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/xTJcIfqjulNjYGVwfTKmMBk3G-k\"",
+      "id": "UUlCc-jzSedwcrYdsM36kq8QqFXwtuGFh2",
+      "snippet": {
+        "publishedAt": "2015-09-15T19:23:04.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"Stop Waiting, Start Living\": Public Talk in NYC, 2015.09.12 (Sr. Jina and Br. Phap Dung)",
+        "description": "\"Mindfulness: Stop Waiting -- Start Living\"\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HFyC/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZX9H56UN3wg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZX9H56UN3wg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZX9H56UN3wg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 24,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ZX9H56UN3wg"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/oO4C-VlooF6JSgnx4Bv1HV7QXfE\"",
+      "id": "UUlCc-jzSedwfJvnlKWFfYrm64Gz95x2jO",
+      "snippet": {
+        "publishedAt": "2015-09-05T17:29:33.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"Signlessness and Impermanence\", Dharma Talk by Sr Dieu Nghiem (Sr Jina) 2015-09-05",
+        "description": "This Dharma Talk is the teaching given on Saturday 5th September, the final day of the 2015 Miracle of Mindfulness Retreat at Blue Cliff Monastery, New York, as part of the 2015 Miracle of Mindfulness Tour of the USA.\n\nSr Dieu Nghiem presents the final four exercises of the 16 exercises of Mindful breathing: \nImpermanence, Non-desire, Throwing Away and Cessation, in the light of the Three Doors of Liberation: Emptiness, Signlessness, and Aimlessness.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HDXW/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9BJhVqaGjL4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9BJhVqaGjL4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9BJhVqaGjL4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9BJhVqaGjL4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9BJhVqaGjL4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 25,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "9BJhVqaGjL4"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/sUTBwojlxuCLd03ZYUg8osKBXKg\"",
+      "id": "UUlCc-jzSedwdWigJXCq-QTq72hDGpoXlk",
+      "snippet": {
+        "publishedAt": "2015-09-04T17:05:25.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Q&A session during the Miracle of Mindfulness Retreat at Blue Cliff Monastery, 2015.09.04",
+        "description": "Questions and Answers by Br CQ, Br Phap Tuyen, Sr Man Nghiem & Sr Dao Nghiem\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HDHd/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UeIh9M5mUGY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UeIh9M5mUGY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UeIh9M5mUGY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 26,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "UeIh9M5mUGY"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/W1uhNuh_SKlpVbDGPw3lejCn-hU\"",
+      "id": "UUlCc-jzSedwdFFrKknJfrbNgUxhWNldMD",
+      "snippet": {
+        "publishedAt": "2015-09-03T16:22:09.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"Insight of Interbeing\" a talk by Sr Mai Nghiem, 2015-09-03",
+        "description": "This is the third Dharma Talk of the Miracle of Mindfulness Retreat at Blue Cliff Monastery, as part of the 2015 Plum Village International Miracle of Mindfulness Tour of the USA.\n\nThe talk begins with two chants: May the Day be Well, Three Refuges\n\nSr Mai Nghiem continues to present the 16 exercises of Mindful Breathing, touching on themes of Gratitude, Loving Relationships, and the Mindful Revolution.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HCoq/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wRng4N0cdbQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wRng4N0cdbQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wRng4N0cdbQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 27,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "wRng4N0cdbQ"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/yE1W3l4bZHT0ztVAgwK4-xug57M\"",
+      "id": "UUlCc-jzSedwe3ICreyEKzgSpYgt9a4BOT",
+      "snippet": {
+        "publishedAt": "2015-09-02T23:31:04.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"The Practice of Non-Fear\" Dharma Talk by Thay Phap Luu (Br. Stream) 2015.09.02",
+        "description": "This is the second Dharma Talk of the 2015 US Tour Miracle of Mindfulness Retreat at Blue Cliff Monastery, NY.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HCeB/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V1mzzF9MN-s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V1mzzF9MN-s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V1mzzF9MN-s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 28,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "V1mzzF9MN-s"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/oWmDuWiA8lNyRxCMqRrryNASGxA\"",
+      "id": "UUlCc-jzSedweDlF8ja6q0aoIMzDqhYNHL",
+      "snippet": {
+        "publishedAt": "2015-09-02T23:00:40.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "BCM Tour 2015.09.02 ticks",
+        "description": "\"Ticks\" Just for Fun\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HCdb/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PdbMPRx5pp8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PdbMPRx5pp8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PdbMPRx5pp8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 29,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "PdbMPRx5pp8"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/7BkbjTha_yU2754Q8-pSUCg_JkI\"",
+      "id": "UUlCc-jzSedwcYKUiGhTsBV-MnnGHdkwmI",
+      "snippet": {
+        "publishedAt": "2015-09-01T23:18:23.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"What is the Miracle of Mindfulness?\" a talk by Brother Phap Hai on 2015-09-01",
+        "description": "This is the first Dharma Talk of the 5-day Retreat at Blue Cliff Monastery, NY, given as part of the Plum Village International Community's \"Miracle of Mindfulness\" Tour of the US, Fall 2015.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HCVV/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YgD1cMWtvko/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YgD1cMWtvko/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YgD1cMWtvko/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 30,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "YgD1cMWtvko"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/ol7qWJDPBrJLaDYErHPgRHPbc6c\"",
+      "id": "UUlCc-jzSedwf1MGoEawcwCvZ6gwP5YgKM",
+      "snippet": {
+        "publishedAt": "2015-09-01T17:58:41.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "BCM US tour 09.01.2015 Changting",
+        "description": "This is the  Chanting From the Depths of Understanding\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HCRN/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hcA7rFFt24w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hcA7rFFt24w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hcA7rFFt24w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 31,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "hcA7rFFt24w"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/wh4ydaehILJ3fDK0tteA75apHyI\"",
+      "id": "UUlCc-jzSedwfTFLIT8xwsEGmSOcRmgivI",
+      "snippet": {
+        "publishedAt": "2015-09-01T16:31:56.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"Introduction to the Miracle of Mindfulness\" (Sr Tue Nghiem, Thay Phap Dung) 2015.08.31",
+        "description": "This is the Orientation to open the \"Miracle of Mindfulness \" 5-day Retreat at Blue Cliff Monastery, New York, as part of the Plum Village International 2015 Miracle of Mindfulness Tour of the USA. \n\nwith Sr Tue Nghiem & Br Phap Dung\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HCQV/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XMHbK52Ema4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XMHbK52Ema4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XMHbK52Ema4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 32,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "XMHbK52Ema4"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/BMTCACZ6kfGXi0phRYdAXSjlKMk\"",
+      "id": "UUlCc-jzSedweYSU_r1YBTgZAzyDX7Fz0s",
+      "snippet": {
+        "publishedAt": "2015-09-01T01:06:59.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "BCM Miracle of Mindfulness: Avalokiteshvara Chant",
+        "description": "Opening the Miracle of Mindfulness Tour: Monastic chanting, invoking the name of Avalokiteshvara, the Bodhisattva of great compassion at Blue Cliff Monastery.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HCFM/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u9W1MGoOmRA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u9W1MGoOmRA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u9W1MGoOmRA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 33,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "u9W1MGoOmRA"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/3T2BuCrN4CVCDR-Exh9a3R3agSE\"",
+      "id": "UUlCc-jzSedweM4CFVkDbRLzivwxTbpogV",
+      "snippet": {
+        "publishedAt": "2015-08-17T23:51:00.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"Arrived\" Dharma talk by Sư cô Thanh Ý 2015 07 23 LH EN",
+        "description": "Sư cô Thanh Ý\n\n2015.07.26.LH.EN Arrived\nAudio: English\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/GyLJ/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/90kKoJ7g9Is/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/90kKoJ7g9Is/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/90kKoJ7g9Is/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 34,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "90kKoJ7g9Is"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/JUvD8yvGW5oKWaB3MffQ26jMtpQ\"",
+      "id": "UUlCc-jzSedwdJCNbR1Zqh8UPNvMn9JUBS",
+      "snippet": {
+        "publishedAt": "2015-08-16T15:34:06.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "BCM 2015.08.16 Sunday Talk Q&A",
+        "description": "A Question and Answer session from Blue Cliff Monastery: Sr. Gioi Nghiem, Br. Phap Khong, Br. Phap Tinh, Sr. Hai An\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/Gxqf/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uHxx1Qe6lrk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uHxx1Qe6lrk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uHxx1Qe6lrk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 35,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "uHxx1Qe6lrk"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/A6nnle2okxkF34NaDLWLCDAbnkY\"",
+      "id": "UUlCc-jzSedweuwj6Wd6ScQW2NYG8Nr5_6",
+      "snippet": {
+        "publishedAt": "2015-08-09T17:31:02.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"Mantras de l'Amour\" dharma talk by Sư cô Chân Không 2015 07 27 NH FR",
+        "description": "Sư cô Chân Không\n\n2015.07.27.NH.FR\nAudio: Francais\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/GwCH/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vcbluN9rWqU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vcbluN9rWqU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vcbluN9rWqU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vcbluN9rWqU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vcbluN9rWqU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 36,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "vcbluN9rWqU"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/jqqHqKxrL3n0acu0iUZiUBavtro\"",
+      "id": "UUlCc-jzSedwcRvAuLYFdkg09kSbBeJ_sy",
+      "snippet": {
+        "publishedAt": "2015-08-06T00:12:08.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"Sword Of Wisdom\" - Dharma Talk by Thầy Pháp Đăng - 2015 07 30 UH EN",
+        "description": "Thầy Pháp Đăng\n\n2017.07.30.UH.EN \nAudio: English\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/GvNE/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CB3jNXuWeHE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CB3jNXuWeHE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CB3jNXuWeHE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/CB3jNXuWeHE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/CB3jNXuWeHE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 37,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "CB3jNXuWeHE"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/cCBtkGr2aDNbpaoV5epnOb9ryzQ\"",
+      "id": "UUlCc-jzSedwcVwyNIDIvvAQCWh_xvjg1p",
+      "snippet": {
+        "publishedAt": "2015-08-05T17:28:57.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"Éléments de L'Amour\" dharma talk by Sư cô Giác Nghiêm 2015 07 20 NH FR",
+        "description": "Sư cô Giác Nghiêm\n\n2015.07.20.NH.FR Éléments de L'Amour\nAudio: Francais\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/GvHk/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rnwY6-hhT1I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rnwY6-hhT1I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rnwY6-hhT1I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rnwY6-hhT1I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rnwY6-hhT1I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 38,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "rnwY6-hhT1I"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/HMudRKvJD2KXImMal_X5s-G5vgk\"",
+      "id": "UUlCc-jzSedwfd6XsCmg718Ge1Eg-Hsxy1",
+      "snippet": {
+        "publishedAt": "2015-08-02T15:16:59.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "BCM 2015.08.02 Sunday Dharma Talk",
+        "description": "Degrees of Freedom and Sangha Harmony: A Talk by Brother Phap Khong.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/GuWG/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bv41QLxibjg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bv41QLxibjg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bv41QLxibjg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bv41QLxibjg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/bv41QLxibjg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 39,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "bv41QLxibjg"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/O1pupjA4x5rBpl3iFNNMCRvRfa8\"",
+      "id": "UUlCc-jzSedweMpdCaO_QLwPihAO6nV_IJ",
+      "snippet": {
+        "publishedAt": "2015-07-25T06:06:09.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"The Four Establishments Of Mindfulness\" - Dharma Talk by Thầy Pháp Dung - 2015 07 23 UH EN",
+        "description": "Thầy Pháp Dung\n\n2015.07.23.UH.EN The 4 establishments of mindfulness\nAudio: English\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/GsPz/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nWwXrIQGa-0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nWwXrIQGa-0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nWwXrIQGa-0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 40,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "nWwXrIQGa-0"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/crouF8QzcfQ47YygneGfSSMQT_o\"",
+      "id": "UUlCc-jzSedwdfeEjGYFW945dZuOEgr2OU",
+      "snippet": {
+        "publishedAt": "2015-07-24T02:39:35.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"The Three-Fold Trainings\" - Dharma Talk by Thầy Kai Ly - 2015 07 19 LH EN",
+        "description": "Thầy Kai Ly\n\n2015.07.19.LH.EN Three folds mindfulness trainings\nAudio: English\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/Grza/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NejMF38SNmM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NejMF38SNmM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NejMF38SNmM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 41,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "NejMF38SNmM"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/l37_WsCA2f9G-hulVVHQJdAvpi8\"",
+      "id": "UUlCc-jzSedwdFJIiJl_GdjMkqIRylkjxR",
+      "snippet": {
+        "publishedAt": "2015-07-19T16:16:31.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Bcm VN Retreat",
+        "description": "This is the latest Dharma talk by Sr Hoa N\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/Gqn5/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RfQYpCXDl18/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RfQYpCXDl18/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RfQYpCXDl18/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RfQYpCXDl18/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RfQYpCXDl18/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 42,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "RfQYpCXDl18"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/WgZrKUBUUCqgt18P4IywlalKcgQ\"",
+      "id": "UUlCc-jzSedwf9xnY6PpdSlWoQ9b9LTza-",
+      "snippet": {
+        "publishedAt": "2015-07-19T01:51:06.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Bcm Be-In VN Retreat",
+        "description": "Help us caption & translate this video!\n\nhttp://amara.org/v/Gqgj/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UKJEdXtCAm0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UKJEdXtCAm0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UKJEdXtCAm0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UKJEdXtCAm0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UKJEdXtCAm0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 43,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "UKJEdXtCAm0"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/xAb1ggtaX40SjM14_FPno8rPv04\"",
+      "id": "UUlCc-jzSedwcOg8BM5L_45DfwtrqwTKIs",
+      "snippet": {
+        "publishedAt": "2015-07-18T11:59:07.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Bcm Q & A VN",
+        "description": "This is the latest Dharma talk by Munks & Nuns\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/Gq81/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/adkm_u5lbl8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/adkm_u5lbl8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/adkm_u5lbl8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/adkm_u5lbl8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/adkm_u5lbl8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 44,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "adkm_u5lbl8"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/08LyVjoNsnv_msTIRDe8bWX-hok\"",
+      "id": "UUlCc-jzSedwcxZXMqm_sxqd2grHFWyAMz",
+      "snippet": {
+        "publishedAt": "2015-07-17T16:48:55.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "BCM Khóa Tu Tiếng Việt 1 (Vietnamese Retreat) 2015.07.16 VN",
+        "description": "Ngày 16 tháng 7 năm 2015 Tu Viện Bích Nham. Pháp thoại  thứ nhất của  Khóa Tu Tiếng Việt của Sư Cô Chỉ Nghiêm.\n\nJuly 16, 2015 Blue Cliff Monastery. The first talk of our Vietnamese Retreat by Sister Chỉ Nghiêm.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/GqZ3/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5Q1p8vAcFvg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5Q1p8vAcFvg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5Q1p8vAcFvg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 45,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "5Q1p8vAcFvg"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/RAk_HTuNPr-J_SPlr-vzmlcDEAI\"",
+      "id": "UUlCc-jzSedwflV6D9U5qMLWwkVP9Fu77I",
+      "snippet": {
+        "publishedAt": "2015-07-17T16:15:43.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "BCM Khóa Tu Tiếng Việt 2 (Vietnamese Retreat) 2015.07.17 VN",
+        "description": "Ngày 17 tháng 7 năm 2015 Tu Viện Bích Nham. Pháp thoại thứ hai của  Khóa Tu Tiếng Việt của Thầy Pháp Tại. \n\nJuly 17, 2015 Blue Cliff Monastery. The second talk of our Vietnamese Retreat by Brother Pháp Tại.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/GqZ4/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_0Q962JZKYo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_0Q962JZKYo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_0Q962JZKYo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 46,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "_0Q962JZKYo"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/FdzEWDMMPEJEVhXifK41SjBbWfE\"",
+      "id": "UUlCc-jzSedweLUyjO8_O7sOiYNm91-lQ-",
+      "snippet": {
+        "publishedAt": "2015-07-15T22:54:13.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"Mindfulness of Feelings\" - Dharma Talk by Thầy Pháp Đăng - 2015 07 13 NH EN",
+        "description": "Thầy Pháp Đăng\n\n2015.07.13.NH.EN Mindful feelings - Happiness and Sufferings\nAudio: English\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/Gpy7/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LMr4MHenXz8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LMr4MHenXz8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LMr4MHenXz8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 47,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "LMr4MHenXz8"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/FWLFEHzgeDNQMQj5r9uaxjoKjRk\"",
+      "id": "UUlCc-jzSedwf8B1rbxr5K5UDQQ5hpZ8rA",
+      "snippet": {
+        "publishedAt": "2015-07-12T15:09:58.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "Bcm Sunday July 12. 2015",
+        "description": "This is the latest Dharma talk by T.P Khoi\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/GpFi/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sE3aAS9aEk0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sE3aAS9aEk0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sE3aAS9aEk0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sE3aAS9aEk0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sE3aAS9aEk0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 48,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "sE3aAS9aEk0"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"kuL0kDMAqRo3pU7O0pwlO-Lfzp4/MB_rBtm8GlDd-r47IT0vMoUa2fw\"",
+      "id": "UUlCc-jzSedwc7YkkFrANPCnSCnRNWYOXT",
+      "snippet": {
+        "publishedAt": "2015-07-09T20:27:30.000Z",
+        "channelId": "UCcv7KJIAsiddB2YRegvrF7g",
+        "title": "\"Three Doors Of Liberation\" - Dharma Talk by Thầy Pháp Ứng - 2015 07 09 UH EN",
+        "description": "Thầy Pháp Ứng\n\n2015.07.09.UH.EN The Dharma seals and 3 Doors Of Liberation\nAudio: English\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/Go89/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/E0gNhzHzP1s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/E0gNhzHzP1s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/E0gNhzHzP1s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "plumvillageonline",
+        "playlistId": "UUcv7KJIAsiddB2YRegvrF7g",
+        "position": 49,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "E0gNhzHzP1s"
+        }
+      }
+    }
+  ]
+}

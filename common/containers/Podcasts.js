@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
 
-class Foo extends Component {
+class Podcasts extends Component {
   constructor(props) {
     super(props);
   }
@@ -11,11 +11,11 @@ class Foo extends Component {
     return (
       <div>
         <h1>
-          Foo
+          Podcasts
         </h1>
       </div>
     )
   }
 }
 
-export default connect()(Foo)
+export default connect()(Podcasts)

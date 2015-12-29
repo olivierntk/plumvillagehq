@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
-import counter from './counter'
+import videos from './videos'
 
 const rootReducer = combineReducers({
-  counter
+  videos
 })
 
 export default rootReducer

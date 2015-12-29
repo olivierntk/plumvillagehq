@@ -1,27 +1,31 @@
-const React = require('react');
-const { Link } = require('react-router');
-const { connect } = require('react-redux');
-const { pushPath } = require('redux-simple-router');
+import React, { Component, PropTypes } from 'react'
+import { Link } from 'react-router'
+import { connect } from 'react-redux'
+import { pushPath } from 'redux-simple-router'
 
-function App({ pushPath, children }) {
-  return (
-    <div>
-      <header>
-        Links:
-        {' '}
-        <Link to="/">Home</Link>
-        {' '}
-        <Link to="/foo">Foo</Link>
-        {' '}
-        <Link to="/bar">Bar</Link>
-      </header>
+class App extends Component {
+  render() {
+    return (
       <div>
-        <button onClick={() => pushPath('/foo')}>Go to /foo</button>
+        APP SHELL
+        <header>
+          Links:
+          {' '}
+          <Link to="/">Home</Link>
+          {' '}
+          <Link to="/podcasts">Podcasts</Link>
+          {' '}
+          <Link to="/videos">Videos</Link>
+        </header>
+        <div>
+          <button onClick={() => pushPath('/podcasts')}>Go to /podcasts</button>
+        </div>
+        <div style={{marginTop: '1.5em'}}>{this.props.children}</div>
       </div>
-      <div style={{marginTop: '1.5em'}}>{children}</div>
-    </div>
-  );
+    )
+  }
 }
+
 
 module.exports = connect(
   null,
