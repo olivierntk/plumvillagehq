@@ -20,7 +20,7 @@ class Home extends Component {
     return (
       <div>
 
-        This is HOME
+        This is HOME - will list videos here
 
       </div>
     )

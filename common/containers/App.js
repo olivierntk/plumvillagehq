@@ -1,33 +1,28 @@
 import React, { Component, PropTypes } from 'react'
 import { Link } from 'react-router'
 import { connect } from 'react-redux'
-import { pushPath } from 'redux-simple-router'
+import VideoList from '../components/VideoList'
 
 class App extends Component {
+
   render() {
+    const { videos } = this.props
+
     return (
       <div>
         APP SHELL
-        <header>
-          Links:
-          {' '}
-          <Link to="/">Home</Link>
-          {' '}
-          <Link to="/podcasts">Podcasts</Link>
-          {' '}
-          <Link to="/videos">Videos</Link>
-        </header>
-        <div>
-          <button onClick={() => pushPath('/podcasts')}>Go to /podcasts</button>
-        </div>
-        <div style={{marginTop: '1.5em'}}>{this.props.children}</div>
+        <VideoList videos={videos} />
       </div>
     )
   }
 }
 
+function mapStateToProps(state) {
+  const { videos } = state
 
-module.exports = connect(
-  null,
-  { pushPath }
-)(App);
+  return {
+    videos
+  }
+}
+
+module.exports = connect(mapStateToProps)(App);
