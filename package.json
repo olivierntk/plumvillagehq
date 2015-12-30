@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rackt/redux.git"
+    "url": "git+https://github.com/olivierntk/plumvillagehq.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rackt/redux/issues"
+    "url": "https://github.com/olivierntk/plumvillagehq/issues"
   },
   "homepage": "http://rackt.github.io/redux",
   "dependencies": {

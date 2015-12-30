@@ -65,7 +65,7 @@ function renderFullPage(html, initialState) {
     <!doctype html>
     <html>
       <head>
-        <title>Redux Universal Example</title>
+        <title>Plumvillage HQ</title>
       </head>
       <body>
         <div id="app">${html}</div>
