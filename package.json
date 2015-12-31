@@ -14,7 +14,10 @@
   "bugs": {
     "url": "https://github.com/olivierntk/plumvillagehq/issues"
   },
-  "homepage": "http://rackt.github.io/redux",
+  "engines": {
+    "node": "4.1.1"
+  },
+  "homepage": "https://github.com/olivierntk/plumvillagehq",
   "dependencies": {
     "babel": "^5.8.21",
     "express": "^4.13.3",

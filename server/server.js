@@ -19,7 +19,8 @@ import App from '../common/containers/App'
 import { getUploadPlaylistID, getVideosList } from './videos'
 
 const app = new Express()
-const port = 3000
+
+app.set('port', (process.env.PORT || 5000));
 
 let cache = {
   videos: []
@@ -37,9 +38,6 @@ function handleRender(req, res) {
   // Compile an initial state
   const initialState = { videos: cache.videos }
 
-  console.log('initialState');
-  console.log(initialState);
-
   // Create a new Redux store instance
   const store = configureStore(initialState)
 
@@ -52,9 +50,6 @@ function handleRender(req, res) {
 
   // Grab the initial state from our Redux store
   const finalState = store.getState()
-
-  console.log('finalState');
-  console.log(finalState);
 
   // Send the rendered page back to the client
   res.send(renderFullPage(html, finalState))
@@ -90,11 +85,11 @@ getUploadPlaylistID((err, uploadPlaylistID) => {
       } else {
         cache.videos = videos
 
-        app.listen(port, (error) => {
+        app.listen(app.get('port'), (error) => {
           if (error) {
             console.error(error)
           } else {
-            console.info(`==> 🌎  Listening on port ${port}. Open up http://localhost:${port}/ in your browser.`)
+            console.info(`==> 🌎  Listening on port ${app.get('port')}. Open up http://localhost:${app.get('port')}/ in your browser.`)
           }
         })
       }
