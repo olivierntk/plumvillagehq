@@ -18,18 +18,23 @@ import App from '../common/containers/App'
 
 import { getUploadPlaylistID, getVideosList } from './videos'
 
+const isDevelopment = (process.env.NODE_ENV !== 'production');
+
 const app = new Express()
 
 app.set('port', (process.env.PORT || 5000));
+app.use('/public', Express.static('public'));
 
 let cache = {
   videos: []
 }
 
-// Use this middleware to set up hot module reloading via webpack.
-const compiler = webpack(webpackConfig)
-app.use(webpackDevMiddleware(compiler, { noInfo: true, publicPath: webpackConfig.output.publicPath }))
-app.use(webpackHotMiddleware(compiler))
+if (isDevelopment) {
+  // Use this middleware to set up hot module reloading via webpack.
+  const compiler = webpack(webpackConfig)
+  app.use(webpackDevMiddleware(compiler, { noInfo: true, publicPath: webpackConfig.output.publicPath }))
+  app.use(webpackHotMiddleware(compiler))
+}
 
 // This is fired every time the server side receives a request
 app.use(handleRender)
@@ -69,7 +74,7 @@ function renderFullPage(html, initialState) {
         <script>
           window.__INITIAL_STATE__ = ${JSON.stringify(initialState)}
         </script>
-        <script src="/static/bundle.js"></script>
+        <script src="/public/bundle.js"></script>
       </body>
     </html>
     `

@@ -10,10 +10,9 @@ class App extends Component {
 
   render() {
     const { dispatch, visibleVideos, languageFilter } = this.props
-    console.log(visibleVideos.length);
     return (
       <div>
-        <h1>Plum Village youtube videos list</h1>
+        <h1>Plum Village YouTube videos list</h1>
         <Filter filter='ALL'
           onLanguageFilterChange={nextFilter => {
             dispatch(setLanguageFilter(nextFilter))}
@@ -43,7 +42,6 @@ function filterEN (video) {
   let results = _.map(regexList, (regex) => {
     return !content.includes(regex)
   })
-  console.log(results);
   let result = _.reduce(results, (prev, next) => {
     return prev && next
   })

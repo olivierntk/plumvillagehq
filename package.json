@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "A site to gathered resources related to Plum Village",
   "scripts": {
-    "start": "node server/index.js",
-    "test": "tap test/**/*.js"
+    "postinstall": "webpack --config ./webpack-prod.config.js --progress --colors",
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",
