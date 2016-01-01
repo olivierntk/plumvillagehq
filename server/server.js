@@ -61,8 +61,8 @@ function renderFullPage(html, initialState) {
     <html>
       <head>
         <title>Plumvillage HQ</title>
-        <meta name="description" content="An site to gather Plum Village's online resources">
-        <meta name="keywords" content="PlumVillage, Dharma talks, Peace, Joy, Dharma, Sangha, Thich Nhat Hanh, Deer Park monastery, Blue Cliff monastery">
+        <meta name="description" content="An site to gather Plum Village's online resources" />
+        <meta name="keywords" content="PlumVillage, Dharma talks, Peace, Joy, Dharma, Sangha, Thich Nhat Hanh, Deer Park monastery, Blue Cliff monastery" />
       </head>
       <body>
         <div id="app">${html}</div>
