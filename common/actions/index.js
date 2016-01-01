@@ -1,49 +1,17 @@
-import request from 'superagent'
+export const SET_LANGUAGE_FILTER = 'SET_LANGUAGE_FILTER'
 
-export const REQUEST_VIDEOS = 'REQUEST_VIDEOS'
-export const RECEIVE_VIDEOS = 'RECEIVE_VIDEOS'
-export const INVALIDATE_VIDEOS = 'INVALIDATE_VIDEOS'
+/*
+ * other constants
+ */
 
-function requestVideos() {
-  return {
-    type: REQUEST_VIDEOS
-  }
+export const LanguageFilters = {
+  ALL: 'ALL',
+  EN: 'EN',
+  FR: 'FR',
+  VN: 'VN',
+  CH: 'CH'
 }
 
-function receivePosts(json) {
-  return {
-    type: RECEIVE_VIDEOS,
-    videos: json.data.children.map(child => child.data),
-    receivedAt: Date.now()
-  }
-}
-
-function fetchVideos() {
-  return dispatch => {
-    // dispatch(requestVideos())
-    return request
-      .get(`http://www.youtube.com/`)
-      .end(function(err, res){
-        console.log(res);
-      })
-  }
-}
-
-function shouldFetchVideos(state) {
-  const videos = state.videos
-  if (!videos) {
-    return true
-  } else if (videos.isFetching) {
-    return false
-  } else {
-    return videos.didInvalidate
-  }
-}
-
-export function fetchVideosIfNeeded() {
-  return (dispatch, getState) => {
-    if (shouldFetchVideos(getState())) {
-      return dispatch(fetchVideos())
-    }
-  }
+export function setLanguageFilter(filter) {
+  return { type: SET_LANGUAGE_FILTER, filter }
 }

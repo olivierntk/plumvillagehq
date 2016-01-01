@@ -11,10 +11,11 @@ class Video extends Component {
       <li>
         <div>
           {this.props.title} - <a href={url} target="blank">link</a>
+          <br />{this.props.description} <br /><br />
         </div>
         {/*
         <div>{this.props.publishedAt}</div>
-        <div>{this.props.description}</div>
+
         <img src={this.props.thumbnails.default.url} />
         */}
       </li>

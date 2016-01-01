@@ -9,6 +9,7 @@ class VideoList extends Component {
   render() {
     return (
       <div>
+
         <ul>
           {this.props.videos.map(video =>
             <Video

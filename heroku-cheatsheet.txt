@@ -1,0 +1,18 @@
+# start the app
+heroku local web
+
+# push to heroku
+git push heroku master
+
+# know what dynos are running which process types
+heroku ps
+
+# see the audit trail of release deploys
+heroku releases
+
+# rollback and deploy a previous release
+heroku releases:rollback v102
+
+# view logs
+heroku logs
+heroku logs --ps web.1 --tail
