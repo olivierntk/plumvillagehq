@@ -1,4 +1,5 @@
 export const SET_LANGUAGE_FILTER = 'SET_LANGUAGE_FILTER'
+export const SET_SEARCH_FILTER = 'SET_SEARCH_FILTER'
 
 /*
  * other constants
@@ -14,4 +15,8 @@ export const LanguageFilters = {
 
 export function setLanguageFilter(filter) {
   return { type: SET_LANGUAGE_FILTER, filter }
+}
+
+export function setSearchFilter(filter) {
+  return { type: SET_SEARCH_FILTER, filter }
 }

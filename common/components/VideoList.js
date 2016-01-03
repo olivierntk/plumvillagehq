@@ -7,16 +7,20 @@ class VideoList extends Component {
   }
 
   render() {
-    return (
-      <div>
-
+    let videos = (<div>Sorry, no videos were found. Try another search.</div>)
+    if (this.props.videos.length > 0) {
+      videos = (
         <ul>
           {this.props.videos.map(video =>
             <Video
               key={video.resourceId.videoId}
               {...video} />
           )}
-        </ul>
+        </ul>)
+    }
+    return (
+      <div>
+        {videos}
       </div>
     )
   }

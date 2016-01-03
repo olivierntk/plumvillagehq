@@ -66,7 +66,7 @@ function renderFullPage(html, initialState) {
     <html>
       <head>
         <title>Plumvillage HQ</title>
-        <meta name="description" content="An site to gather Plum Village's online resources" />
+        <meta name="description" content="A site to gather Plum Village's online resources" />
         <meta name="keywords" content="PlumVillage, Dharma talks, Peace, Joy, Dharma, Sangha, Thich Nhat Hanh, Deer Park monastery, Blue Cliff monastery" />
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -80,6 +80,7 @@ function renderFullPage(html, initialState) {
         </script>
       </head>
       <body>
+        <!-- Google Tag Manager -->
         <div id="app">${html}</div>
         <script>
           window.__INITIAL_STATE__ = ${JSON.stringify(initialState)}
