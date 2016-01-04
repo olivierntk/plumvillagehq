@@ -13,9 +13,7 @@ class Video extends Component {
         <div>Published date: {this.props.publishedAt}</div>
         <div>Description: {this.props.description} </div>
         <a href={url} target="blank">Watch on YouTube</a><br /><br />
-        {/*
-        <img src={this.props.thumbnails.default.url} />
-         */}
+        {/* <img src={this.props.thumbnails.default.url} /> */}
       </li>
     )
 
