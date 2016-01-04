@@ -67,7 +67,7 @@ function renderFullPage(html, initialState) {
       <head>
         <title>Plumvillage HQ</title>
         <meta name="description" content="A site to gather Plum Village's online resources" />
-        <meta name="keywords" content="PlumVillage, Dharma talks, Peace, Joy, Dharma, Sangha, Thich Nhat Hanh, Deer Park monastery, Blue Cliff monastery" />
+        <meta name="keywords" content="Thich Nhat Hanh, PlumVillage, Mindfulness, Meditation, Dharma Talks, Peace, Joy" />
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
