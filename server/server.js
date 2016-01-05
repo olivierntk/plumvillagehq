@@ -3,6 +3,7 @@
 import path from 'path'
 import Express from 'express'
 import qs from 'qs'
+import favicon  from 'serve-favicon'
 
 import webpack from 'webpack'
 import webpackDevMiddleware from 'webpack-dev-middleware'
@@ -24,6 +25,7 @@ const app = new Express()
 
 app.set('port', (process.env.PORT || 5000));
 app.use('/public', Express.static('public'));
+app.use(favicon(path.join(__dirname,'../public','images','favicon.png')));
 
 let cache = {
   videos: []

@@ -5,3 +5,5 @@ build
 .DS_Store
 .project
 npm-debug.log
+public/bundle.js
+public/bundle.js.map
