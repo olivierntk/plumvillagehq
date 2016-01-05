@@ -27,15 +27,18 @@ class App extends Component {
 }
 
 const languageFilters = {
-  'FR': ['fr ', 'francophone', 'french', 'francais', 'français'],
-  'VN': ['vn ', 'vn)', 'in Vietnamese.', 'Vietnamese language', 'VN Retreat', 'Vietnamese Retreat', 'Vietnamese is on the left channel', 'Vietnamese and the English translation', 'Vietnamese.'],
-  'NL': ['EIAB Dutch', 'dutch', 'dutch retreat'],
   'DE': ['EIAB German', 'german retreat'],
-  'ZH': ['Hong Kong'],
-  'TH': ['Applied Ethics', 'Bangkok']
+  'FR': ['fr ', 'francophone', 'french', 'francais', 'français'],
+  'IT': ['Italian'],
+  'NL': ['EIAB Dutch', 'dutch', 'dutch retreat'],
+  'TH': ['Applied Ethics', 'Bangkok'],
+  'VN': ['vn ', 'vn)', 'in Vietnamese.', 'Vietnamese language',
+          'VN Retreat', 'Vietnamese Retreat', 'Vietnamese is on the left channel',
+          'Vietnamese and the English translation', 'Vietnamese.'],
+  'ZH': ['Hong Kong']
 }
 
-function selectVideos(videos, languageFilter = LanguageFilters.ALL, searchFilter = '') {
+function selectVideos(videos, languageFilter, searchFilter = '') {
   let searchTerms = searchFilter.toLowerCase().split(',')
   let filteredVideos
 
@@ -46,6 +49,8 @@ function selectVideos(videos, languageFilter = LanguageFilters.ALL, searchFilter
       } else {
         return videos
       }
+    case LanguageFilters.DE:
+      return getFilterVideos(videos, languageFilters.DE, searchTerms)
     case LanguageFilters.EN:
       filteredVideos = _.filter(videos, curriedReject(languageFilters.FR.concat(languageFilters.VN)))
       if (searchTerms.length > 0 && searchTerms[0] !== '') {
@@ -55,16 +60,16 @@ function selectVideos(videos, languageFilter = LanguageFilters.ALL, searchFilter
       }
     case LanguageFilters.FR:
       return getFilterVideos(videos, languageFilters.FR, searchTerms)
+    case LanguageFilters.IT:
+      return getFilterVideos(videos, languageFilters.IT, searchTerms)
     case LanguageFilters.NL:
       return getFilterVideos(videos, languageFilters.NL, searchTerms)
-    case LanguageFilters.DE:
-      return getFilterVideos(videos, languageFilters.DE, searchTerms)
-    case LanguageFilters.ZH:
-      return getFilterVideos(videos, languageFilters.ZH, searchTerms)
     case LanguageFilters.TH:
       return getFilterVideos(videos, languageFilters.TH, searchTerms)
     case LanguageFilters.VN:
       return getFilterVideos(videos, languageFilters.VN, searchTerms)
+    case LanguageFilters.ZH:
+      return getFilterVideos(videos, languageFilters.ZH, searchTerms)
   }
 }
 
