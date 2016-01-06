@@ -4,6 +4,7 @@ import path from 'path'
 import Express from 'express'
 import qs from 'qs'
 import favicon  from 'serve-favicon'
+import compression from 'compression'
 
 import webpack from 'webpack'
 import webpackDevMiddleware from 'webpack-dev-middleware'
@@ -24,6 +25,8 @@ const isDevelopment = (process.env.NODE_ENV !== 'production');
 const app = new Express()
 
 app.set('port', (process.env.PORT || 5000));
+
+app.use(compression()) // Must be called before any static DIR
 app.use('/public', Express.static('public'));
 app.use(favicon(path.join(__dirname,'../public','images','favicon.png')));
 
@@ -68,6 +71,7 @@ function renderFullPage(html, initialState) {
     <html>
       <head>
         <title>Plumvillage HQ</title>
+        <meta name=viewport content="width=device-width, initial-scale=1" />
         <meta name="description" content="A site to gather Plum Village's online resources" />
         <meta name="keywords" content="Thich Nhat Hanh, PlumVillage, Mindfulness, Meditation, Dharma Talks, Peace, Joy" />
         <script>
