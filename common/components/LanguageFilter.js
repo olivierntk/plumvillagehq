@@ -23,6 +23,11 @@ export default class LanguageFilter extends Component {
         <ul>
           <li>{this.renderFilter('ALL', 'All')}</li>
           <li>{this.renderFilter('EN', 'English')}</li>
+          <li>{this.renderFilter('ZH', 'English/Chinese')}</li>
+          <li>{this.renderFilter('NL', 'English/Dutch')}</li>
+          <li>{this.renderFilter('DE', 'English/German')}</li>
+          <li>{this.renderFilter('IT', 'English/Italian')}</li>
+          <li>{this.renderFilter('TH', 'English/Thai')}</li>
           <li>{this.renderFilter('FR', 'French')}</li>
           <li>{this.renderFilter('VN', 'Vietnamese')}</li>
         </ul>
@@ -37,8 +42,12 @@ LanguageFilter.propTypes = {
   filter: PropTypes.oneOf([
     'ALL',
     'EN',
+    'IT',
+    'ZH',
+    'NL',
+    'DE',
     'FR',
-    'VN',
-    'CH'
+    'TH',
+    'VN'
   ]).isRequired
 }

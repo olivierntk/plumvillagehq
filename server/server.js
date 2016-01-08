@@ -3,6 +3,8 @@
 import path from 'path'
 import Express from 'express'
 import qs from 'qs'
+import favicon  from 'serve-favicon'
+import compression from 'compression'
 
 import webpack from 'webpack'
 import webpackDevMiddleware from 'webpack-dev-middleware'
@@ -23,7 +25,10 @@ const isDevelopment = (process.env.NODE_ENV !== 'production');
 const app = new Express()
 
 app.set('port', (process.env.PORT || 5000));
+
+app.use(compression()) // Must be called before any static DIR
 app.use('/public', Express.static('public'));
+app.use(favicon(path.join(__dirname,'../public','images','favicon.png')));
 
 let cache = {
   videos: []
@@ -66,8 +71,9 @@ function renderFullPage(html, initialState) {
     <html>
       <head>
         <title>Plumvillage HQ</title>
+        <meta name=viewport content="width=device-width, initial-scale=1" />
         <meta name="description" content="A site to gather Plum Village's online resources" />
-        <meta name="keywords" content="PlumVillage, Dharma talks, Peace, Joy, Dharma, Sangha, Thich Nhat Hanh, Deer Park monastery, Blue Cliff monastery" />
+        <meta name="keywords" content="Thich Nhat Hanh, PlumVillage, Mindfulness, Meditation, Dharma Talks, Peace, Joy" />
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

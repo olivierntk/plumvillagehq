@@ -8,9 +8,13 @@ export const SET_SEARCH_FILTER = 'SET_SEARCH_FILTER'
 export const LanguageFilters = {
   ALL: 'ALL',
   EN: 'EN',
+  DE: 'DE',
   FR: 'FR',
+  IT: 'IT',
+  NL: 'NL',
+  TH: 'TH',
   VN: 'VN',
-  CH: 'CH'
+  ZH: 'ZH'
 }
 
 export function setLanguageFilter(filter) {
