@@ -14,6 +14,8 @@ import webpackConfig from '../webpack.config'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
 import { Provider } from 'react-redux'
+import {IntlProvider} from 'react-intl';
+
 
 import configureStore from '../common/store/configureStore'
 import App from '../common/containers/App'
@@ -54,7 +56,9 @@ function handleRender(req, res) {
   // Render the component to a string
   const html = renderToString(
     <Provider store={store}>
-      <App />
+      <IntlProvider locale="en">
+        <App />
+      </IntlProvider>
     </Provider>
   )
 

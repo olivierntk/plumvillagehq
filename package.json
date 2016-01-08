@@ -28,7 +28,7 @@
     "qs": "^4.0.0",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
-    "react-intl": "^1.2.2",
+    "react-intl": "2.0.0-pr-3",
     "react-redux": "^4.0.0",
     "redux": "^3.0.0",
     "redux-logger": "^2.3.1",
