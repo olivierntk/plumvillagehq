@@ -14,7 +14,7 @@ import webpackConfig from '../webpack.config'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
 import { Provider } from 'react-redux'
-import {IntlProvider} from 'react-intl';
+import { IntlProvider } from 'react-intl';
 
 
 import configureStore from '../common/store/configureStore'

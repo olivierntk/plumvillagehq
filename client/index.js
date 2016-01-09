@@ -10,9 +10,16 @@ const initialState = window.__INITIAL_STATE__
 const store = configureStore(initialState)
 const rootElement = document.getElementById('app')
 
+import { IntlProvider, addLocaleData } from 'react-intl'
+import en from 'react-intl/lib/locale-data/en'
+
+addLocaleData(en)
+
 render(
   <Provider store={store}>
-  	<App />
+    <IntlProvider locale="en">
+  	 <App />
+    </IntlProvider>
   </Provider>,
   rootElement
 )
