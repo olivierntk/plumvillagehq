@@ -34,7 +34,7 @@ const languageFilters = {
   'TH': ['Applied Ethics', 'Bangkok'],
   'VN': ['vn ', 'vn)', 'in Vietnamese.', 'Vietnamese language',
           'VN Retreat', 'Vietnamese Retreat', 'Vietnamese is on the left channel',
-          'Vietnamese and the English translation', 'Vietnamese.'],
+          'Vietnamese and the English translation', 'Vietnamese.', 'Tiếng Việt'],
   'ZH': ['Hong Kong']
 }
 
