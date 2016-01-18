@@ -95,7 +95,7 @@ function renderFullPage(html, initialState) {
           window.__INITIAL_STATE__ = ${JSON.stringify(initialState)}
         </script>
         <script src="/public/bundle.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="/public/library/jquery.min.js"></script>
         <script src="/public/semantic/dist/semantic.min.js"></script>
       </body>
     </html>
