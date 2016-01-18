@@ -1,35 +1,33 @@
 import React, { Component, PropTypes } from 'react'
 
 export default class VideoSearch extends Component {
-  // handleChange () {
-  //   this.props.onVideoSearch(
-  //     this.refs.filterTextInput.value
-  //   )
-  // }
-
   render() {
 
     return (
-      <div>
-        <h2>Try your luck!</h2>
-         <form>
+      <div className="ui container">
+        <h1 className="ui header">Search</h1>
+        <div className="ui divider"></div>
+        <div className="ui search">
+          <div className="ui icon input">
             <input type="text"
+              className="prompt"
               placeholder="Search..."
               value={this.props.filterText}
               ref="filterTextInput"
               onChange={this.props.onVideoSearch}
             />
-          </form>
-
-          <div>
-            <p>Tips: You can try searching for a talk using many types of search. Some examples:</p>
-            <ul>
-              <li>Search by a topic: type 'interbeing' or 'impermanence' to list the dharma talks on a given topic</li>
-              <li>Search by a retreat: type 'miracle of mindfulness' or 'art of suffering' to list the dharma talks related to the desired retreat</li>
-              <li>Search by a dharma teacher: type 'Jina' or 'phap dung' to list the dharma talks given by a specific dharma teacher</li>
-            </ul>
+            <i className="search icon"></i>
           </div>
-        <hr />
+        </div>
+        <br />
+        <div>
+          <p>Tips: You can try searching for a talk using many types of search. Some examples:</p>
+          <ul>
+            <li>Search by a topic: type 'interbeing' or 'impermanence' to list the dharma talks on a given topic</li>
+            <li>Search by a retreat: type 'miracle of mindfulness' or 'art of suffering' to list the dharma talks related to the desired retreat</li>
+            <li>Search by a dharma teacher: type 'Jina' or 'phap dung' to list the dharma talks given by a specific dharma teacher</li>
+          </ul>
+        </div>
       </div>
     )
   }

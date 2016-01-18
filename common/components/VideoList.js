@@ -10,15 +10,15 @@ class VideoList extends Component {
     let videos = (<div>Sorry, no video were found. Try another search.</div>)
     if (this.props.videos.length > 0) {
       videos = (
-        <div>
+        <div className="ui container">
           <p>We found <b>{this.props.videos.length}</b> videos.</p>
-          <ul>
+          <div className="ui relaxed divided items">
             {this.props.videos.map(video =>
               <Video
                 key={video.resourceId.videoId}
                 {...video} />
             )}
-          </ul>
+          </div>
         </div>)
     }
     return (

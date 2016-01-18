@@ -18,7 +18,7 @@ addLocaleData(en)
 render(
   <Provider store={store}>
     <IntlProvider locale="en">
-  	 <App />
+      <App />
     </IntlProvider>
   </Provider>,
   rootElement

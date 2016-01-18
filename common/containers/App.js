@@ -11,16 +11,22 @@ class App extends Component {
   render() {
     const { dispatch, visibleVideos, languageFilter, searchFilter } = this.props
     return (
-      <div>
+      <div className="ui container">
         <h1>Plum Village YouTube videos list</h1>
-        <LanguageFilter filter={languageFilter}
+          <LanguageFilter filter={languageFilter}
           onFilterChange={nextFilter => {
             dispatch(setLanguageFilter(nextFilter))}
-          }/>
+          }
+        />
+        <br /><br />
         <VideoSearch onVideoSearch={search => {
           dispatch(setSearchFilter(search.target.value))}
         }/>
+        <div className="ui divider"></div>
+        <br />
         <VideoList videos={visibleVideos} />
+        <div className="ui divider"></div>
+        <br /><br />
       </div>
     )
   }

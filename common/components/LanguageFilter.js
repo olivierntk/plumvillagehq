@@ -19,19 +19,22 @@ export default class LanguageFilter extends Component {
   render() {
     return (
       <div>
-        <h2>Select a language:</h2>
-        <ul>
-          <li>{this.renderFilter('ALL', 'All')}</li>
-          <li>{this.renderFilter('EN', 'English')}</li>
-          <li>{this.renderFilter('ZH', 'English/Chinese')}</li>
-          <li>{this.renderFilter('NL', 'English/Dutch')}</li>
-          <li>{this.renderFilter('DE', 'English/German')}</li>
-          <li>{this.renderFilter('IT', 'English/Italian')}</li>
-          <li>{this.renderFilter('TH', 'English/Thai')}</li>
-          <li>{this.renderFilter('FR', 'French')}</li>
-          <li>{this.renderFilter('VN', 'Vietnamese')}</li>
-        </ul>
-        <hr />
+        <h1 className="ui header">Select a language</h1>
+        <div className="ui divider"></div>
+        <select className="ui dropdown" onChange={e => {
+        e.preventDefault()
+        this.props.onFilterChange(e.target.value)
+      }}>
+          <option value='ALL'>All</option>
+          <option value='EN'>English</option>
+          <option value='ZH'>English/Chinese</option>
+          <option value='NL'>English/Dutch</option>
+          <option value='DE'>English/German</option>
+          <option value='IT'>English/Italian</option>
+          <option value='TH'>English/Thai</option>
+          <option value='FR'>French</option>
+          <option value='VN'>Vietnamese</option>
+        </select>
       </div>
     )
   }
@@ -39,6 +42,7 @@ export default class LanguageFilter extends Component {
 
 LanguageFilter.propTypes = {
   onFilterChange: PropTypes.func.isRequired,
+
   filter: PropTypes.oneOf([
     'ALL',
     'EN',

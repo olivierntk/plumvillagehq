@@ -2,7 +2,6 @@
 
 import path from 'path'
 import Express from 'express'
-import qs from 'qs'
 import favicon  from 'serve-favicon'
 import compression from 'compression'
 
@@ -78,6 +77,7 @@ function renderFullPage(html, initialState) {
         <meta name=viewport content="width=device-width, initial-scale=1" />
         <meta name="description" content="A site to gather Plum Village's online resources" />
         <meta name="keywords" content="Thich Nhat Hanh, PlumVillage, Mindfulness, Meditation, Dharma Talks, Peace, Joy" />
+        <link rel="stylesheet" type="text/css" href="/public/semantic/dist/semantic.min.css">
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -90,12 +90,13 @@ function renderFullPage(html, initialState) {
         </script>
       </head>
       <body>
-        <!-- Google Tag Manager -->
         <div id="app">${html}</div>
         <script>
           window.__INITIAL_STATE__ = ${JSON.stringify(initialState)}
         </script>
         <script src="/public/bundle.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="/public/semantic/dist/semantic.min.js"></script>
       </body>
     </html>
     `
