@@ -13,13 +13,13 @@ const rootElement = document.getElementById('app')
 import { IntlProvider, addLocaleData } from 'react-intl'
 import en from 'react-intl/lib/locale-data/en'
 
+
+
 addLocaleData(en)
 
 render(
   <Provider store={store}>
-    <IntlProvider locale="en">
-      <App />
-    </IntlProvider>
+    <App />
   </Provider>,
   rootElement
 )
