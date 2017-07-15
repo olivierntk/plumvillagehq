@@ -11,7 +11,12 @@ class VideoList extends Component {
     if (this.props.videos.length > 0) {
       videos = (
         <div className="ui container">
-          <p>We found <b>{this.props.videos.length}</b> videos.</p>
+          <div className="ui message">
+            <div className="header">
+              Search results
+            </div>
+            <p>We found <b>{this.props.videos.length}</b> videos.</p>
+          </div>
           <div className="ui relaxed divided items">
             {this.props.videos.map(video =>
               <Video

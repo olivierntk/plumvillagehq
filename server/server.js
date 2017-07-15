@@ -88,6 +88,8 @@ function renderFullPage(html, initialState) {
           ga('send', 'pageview');
 
         </script>
+        <script src="/public/library/jquery.min.js"></script>
+        <script src="/public/semantic/dist/semantic.min.js"></script>
       </head>
       <body>
         <div id="app">${html}</div>
@@ -95,8 +97,7 @@ function renderFullPage(html, initialState) {
           window.__INITIAL_STATE__ = ${JSON.stringify(initialState)}
         </script>
         <script src="/public/bundle.js"></script>
-        <script src="/public/library/jquery.min.js"></script>
-        <script src="/public/semantic/dist/semantic.min.js"></script>
+
       </body>
     </html>
     `

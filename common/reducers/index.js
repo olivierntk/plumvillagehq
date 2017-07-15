@@ -7,6 +7,8 @@ function languageFilter(state = ALL, action) {
   switch (action.type) {
     case SET_LANGUAGE_FILTER:
       return action.filter
+    case SET_SEARCH_FILTER:
+      return ALL
     default:
       return state
   }

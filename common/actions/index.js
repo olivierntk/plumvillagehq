@@ -24,3 +24,11 @@ export function setLanguageFilter(filter) {
 export function setSearchFilter(filter) {
   return { type: SET_SEARCH_FILTER, filter }
 }
+
+export function setRetreatFilter(filter) {
+  return { type: SET_SEARCH_FILTER, filter }
+}
+
+export function setThemeFilter(filter) {
+  return { type: SET_SEARCH_FILTER, filter }
+}
