@@ -21,8 +21,8 @@ class App extends Component {
     const { dispatch, visibleVideos, languageFilter, searchFilter, retreatList, themeList } = this.props
 
     const retreats = retreatList.sort(function(a, b){
-        if(a.name < b.name) return -1;
-        if(a.name > b.name) return 1;
+        if(a.name < b.name) return 1;
+        if(a.name > b.name) return -1;
         return 0;
     });
 
@@ -109,59 +109,91 @@ const languageFilters = {
 
 const retreatList = [
   {
-    name: 'Art of suffering',
+    name: '2013 - Art of suffering',
     keywords: ['Art of suffering']
   },
   {
-    name: 'Wake Up ',
+    name: 'All Wake Up Retreats',
     keywords: ['Wake Up']
   },
   {
-    name: 'Finding Our True Home',
+    name: '2013 - Finding Our True Home',
     keywords: ['Finding Our True Home']
   },
   {
-    name: '2017 Summer Family Retreat',
+    name: '2017 - Summer Family Retreat',
     keywords: ['2017 Summer Family Retreat']
   },
   {
-    name: 'The Miracle of Mindfulness Retreat',
+    name: '2015 - The Miracle of Mindfulness Retreat',
     keywords: ['The Miracle of Mindfulness Retreat']
   },
   {
-    name: 'Health and Wellness Retreat',
+    name: '2016 - Health and Wellness Retreat',
     keywords: ['Health and Wellness Retreat']
   },
   {
-    name: 'Earth Retreat',
+    name: '2016 - Earth Retreat',
     keywords: ['Earth Retreat']
   },
   {
-    name: 'People of color',
+    name: '2016 - People of color',
     keywords: ['People of color']
   },
   {
-    name: 'Educators Retreat',
+    name: '2013 - Educators Retreat',
     keywords: ['Educators Retreat', 'Mindfulness Retreat for Educators']
   },
   {
-    name: 'Applied Ethics Retreat',
+    name: '2014 - Educators Retreat',
+    keywords: ['Barcelona']
+  },
+  {
+    name: '2014 - Vietnamese Retreat',
+    keywords: ['Vietnamese Retreat']
+  },
+  {
+    name: '2013 - Applied Ethics Retreat',
     keywords: ['Applied Ethics Retreat']
   },
   {
-    name: 'OI retreat',
+    name: '2013 - Dutch Retreat',
+    keywords: ['Dutch Retreat']
+  },
+  {
+    name: '2013 - German Retreat',
+    keywords: ['German Retreat']
+  },
+  {
+    name: '2013 - PV Summer Opening Retreat',
+    keywords: ['Summer Opening Retreat']
+  },
+  {
+    name: '2014 - BCM Summer Retreat',
+    keywords: ['BCM Summer Retreat']
+  },
+  {
+    name: '2014 - PV Summer Retreat',
+    keywords: ['PV Summer Retreat']
+  },
+  {
+    name: '2014 - BCM Educators Retreat',
+    keywords: ['BCM Educators Retreat']
+  },
+  {
+    name: '2015 - BCM OI retreat',
     keywords: ['OI retreat']
   },
   {
-    name: 'BCM Holiday retreat',
+    name: '2015 - BCM Holiday retreat',
     keywords: ['BCM Holiday retreat']
   },
   {
-    name: 'Autumn Retreat',
+    name: '2016 - Autumn Retreat',
     keywords: ['Autumn Retreat', 'Autumn Opening']
   },
   {
-    name: 'Vulture Peak Gathering',
+    name: '2016 - Vulture Peak Gathering',
     keywords: ['Vulture Peak Gathering']
   },
   {
@@ -169,21 +201,45 @@ const retreatList = [
     keywords: ['DPM EN']
   },
   {
-    name: 'The time is now',
+    name: '2015 - The time is now',
     keywords: ['time is now']
   },
   {
-    name: 'Retraite Francophone',
+    name: '2013/2017 - Retraite Francophone',
     keywords: ['Retraite Francophone']
   },
   {
-    name: 'Cooking retreat',
+    name: '2016/2017 - Cooking retreat',
     keywords: ['Cooking retreat']
+  },
+  {
+    name: '2015 - Miracle of Mindfulness Tour',
+    keywords: ['Miracle of Mindfulness Tour']
   },
   {
     name: '2016 - Winter Retreat',
     keywords: ['Winter Retreat - 2016']
-  }
+  },
+  {
+    name: '2014 - EIAB German Retreat',
+    keywords: ['EIAB German Retreat']
+  },
+  {
+    name: '2014 - BCM August Retreat',
+    keywords: ['BCM August Retreat']
+  },
+  {
+    name: '2014 - EIAB Dutch Retreat',
+    keywords: ['EIAB Dutch Retreat']
+  },
+  {
+    name: '2014 - PV Italian Retreat',
+    keywords: ['PV Italian Retreat']
+  },
+  {
+    name: '2014 - True Healing & True Love',
+    keywords: ['True Healing & True Love']
+  },
 ];
 
 const themeList = [
@@ -218,6 +274,10 @@ const themeList = [
   {
     name: 'The Five Powers',
     keywords: ['The Five Powers']
+  },
+  {
+    name: 'True Love',
+    keywords: ['True Love']
   }
 ];
 

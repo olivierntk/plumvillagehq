@@ -10,6 +10,7 @@ export default class LanguageFilter extends Component {
         <div className="ui divider"></div>
         <select className="ui dropdown" id="languageDropdown" onChange={e => {
           e.preventDefault()
+          $('#search').val('')
           $('#retreatDropdown').prop('selectedIndex', 0);
           $('#themeDropdown').prop('selectedIndex', 0);
           this.props.onFilterChange(e.target.value)

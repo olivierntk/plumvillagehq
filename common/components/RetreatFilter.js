@@ -16,6 +16,7 @@ export default class RetreatFilter extends Component {
         <div className="ui divider"></div>
         <select className="ui dropdown" id="retreatDropdown" onChange={e => {
           e.preventDefault()
+          $('#search').val('')
           $('#languageDropdown').prop('selectedIndex', 0);
           $('#themeDropdown').prop('selectedIndex', 0);
           this.props.onFilterChange(e.target.value)

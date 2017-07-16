@@ -12,6 +12,7 @@ export default class ThemeFilter extends Component {
         <div className="ui divider"></div>
         <select className="ui dropdown" id="themeDropdown" onChange={e => {
           e.preventDefault()
+          $('#search').val('')
           $('#retreatDropdown').prop('selectedIndex', 0);
           $('#languageDropdown').prop('selectedIndex', 0);
           this.props.onFilterChange(e.target.value)

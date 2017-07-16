@@ -8,6 +8,7 @@ export default class VideoSearch extends Component {
         <div className="ui search">
           <div className="ui icon input">
             <input type="text"
+              id="search"
               className="prompt"
               placeholder="Search..."
               value={this.props.filterText}
