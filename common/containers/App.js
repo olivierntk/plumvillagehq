@@ -36,7 +36,9 @@ class App extends Component {
       <div className="ui container">
         <br /><br />
         <div className="ui two column grid">
-          <a id="findACommunity" href="http://www.mindfulnessbell.org/directory/"  target="_blank">Find a community to practice with</a>
+          <a id="findACommunity" href="http://www.mindfulnessbell.org/directory/" target="_blank">Find a community to practice with</a>
+          |
+          <a id="github-repo" href="https://github.com/olivierntk/plumvillagehq" target="_blank">Github repo</a>
           <br /><br />
         </div>
 
