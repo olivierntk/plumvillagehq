@@ -7,7 +7,7 @@ class VideoList extends Component {
   }
 
   render() {
-    let videos = (<div>Sorry, no video were found. Try another search.</div>)
+    let videos = (<div>Sorry, no video were found. Please try typing another search.</div>)
     if (this.props.videos.length > 0) {
       videos = (
         <div className="ui container">

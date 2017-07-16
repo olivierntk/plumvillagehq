@@ -7,8 +7,8 @@ function languageFilter(state = ALL, action) {
   switch (action.type) {
     case SET_LANGUAGE_FILTER:
       return action.filter
-    case SET_SEARCH_FILTER:
-      return ALL
+    case 'CLEAR_LANGUAGE_FILTER':
+      return ALL;
     default:
       return state
   }
@@ -18,6 +18,8 @@ function searchFilter(state = '', action) {
   switch (action.type) {
     case SET_SEARCH_FILTER:
       return action.filter
+    case 'CLEAR_SEARCH_FILTER':
+      return '';
     default:
       return state
   }

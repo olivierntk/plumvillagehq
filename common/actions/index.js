@@ -32,3 +32,11 @@ export function setRetreatFilter(filter) {
 export function setThemeFilter(filter) {
   return { type: SET_SEARCH_FILTER, filter }
 }
+
+export function clearSearchFilter() {
+  return { type: 'CLEAR_SEARCH_FILTER' }
+}
+
+export function clearLanguageFilter() {
+  return { type: 'CLEAR_LANGUAGE_FILTER' }
+}

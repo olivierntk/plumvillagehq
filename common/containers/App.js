@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-import { LanguageFilters, setLanguageFilter, setSearchFilter, setThemeFilter, setRetreatFilter } from '../actions'
+import { LanguageFilters, setLanguageFilter, clearLanguageFilter, setSearchFilter, clearSearchFilter, setThemeFilter, setRetreatFilter } from '../actions'
 import LanguageFilter from '../components/LanguageFilter'
 import RetreatFilter from '../components/RetreatFilter'
 import ThemeFilter from '../components/ThemeFilter'
@@ -40,11 +40,14 @@ class App extends Component {
           <br /><br />
         </div>
 
-
-
         <div className="ui two column centered grid">
           <h1>Plum Village YouTube dharma talks</h1>
           <VideoSearch onVideoSearch={search => {
+            dispatch(clearSearchFilter());
+            dispatch(clearLanguageFilter());
+            $('#languageDropdown').prop('selectedIndex', 0);
+            $('#retreatDropdown').prop('selectedIndex', 0);
+            $('#themeDropdown').prop('selectedIndex', 0);
             dispatch(setSearchFilter(search.target.value))}
           }/>
           <br />
@@ -59,6 +62,7 @@ class App extends Component {
             <div className="column">
               <LanguageFilter filter={languageFilter}
                 onFilterChange={nextFilter => {
+                  dispatch(clearSearchFilter())
                   dispatch(setLanguageFilter(nextFilter))}
                 }
               />
@@ -66,6 +70,7 @@ class App extends Component {
             <div className="column">
               <RetreatFilter retreats={retreats} currentFilter={searchFilter}
                 onFilterChange={nextFilter => {
+                  dispatch(clearLanguageFilter())
                   dispatch(setRetreatFilter(nextFilter))}
                 }
               />
@@ -73,6 +78,7 @@ class App extends Component {
             <div className="column">
               <ThemeFilter themes={themeList} currentFilter={searchFilter}
                 onFilterChange={nextFilter => {
+                  dispatch(clearLanguageFilter())
                   dispatch(setThemeFilter(nextFilter))}
                 }
               />
@@ -226,10 +232,13 @@ function selectVideos(videos, languageFilter, searchFilter = '') {
       } else {
         return videos
       }
+      return getFilterVideos(videos, languageFilters.ALL, searchTerms)
     case LanguageFilters.DE:
       return getFilterVideos(videos, languageFilters.DE, searchTerms)
     case LanguageFilters.EN:
       filteredVideos = _.filter(videos, curriedReject(languageFilters.FR.concat(languageFilters.VN)))
+      return filteredVideos
+
       if (searchTerms.length > 0 && searchTerms[0] !== '') {
         return _.filter(filteredVideos, curriedFilter(searchTerms))
       } else {
